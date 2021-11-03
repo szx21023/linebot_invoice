@@ -1,0 +1,60 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "沒中獎!!!",
+        "wrap": true,
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "text": "text2",
+        "wrap": true,
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "text": "text3",
+        "wrap": true,
+        "align": "center"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "前去統一發票官網",
+          "uri": "https://invoice.etax.nat.gov.tw/"
+        },
+        "height": "sm"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "postback",
+          "label": "中獎金額",
+          "data": "money_0"
+        }
+      }
+    ]
+  },
+  "styles": {
+    "comment": "See the example of a bubble style object"
+  }
+}
