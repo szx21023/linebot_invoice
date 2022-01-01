@@ -1,0 +1,27 @@
+{
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "操作說明\n",
+          "wrap": true,
+          "align": "center"
+        },
+        {
+          "type": "text",
+          "text": "傳送一張發票的圖片，或者也可以藉由傳訊息的方式，如：\n1100910 12345678(民國 發票號碼)\n\n我就會依據跟官網相同的號碼數，\n分別告訴你得到什麼獎。\n",
+          "wrap": true,
+          "align": "start"
+        },
+        {
+          "type": "text",
+          "text": "事不宜遲！馬上來試試看吧！",
+          "wrap": true,
+          "align": "center"
+        }
+      ]
+    }
+  }
